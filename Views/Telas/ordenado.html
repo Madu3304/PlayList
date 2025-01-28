@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/ordenado.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <title>Ordenado</title>
+</head>
+<body>
+    <nav  id="fund">
+        <nav id="navbar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#fff" class="bi bi-headphones" viewBox="0 0 20 20">
+                <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"/>
+            </svg>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="../telas/artista.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../telas/busca.html">Ver Artistas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../telas/artista.html">Ver Letras</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../telas/ordenado.html">Artistas Ordenados</a>
+                </li>
+            
+            </ul>
+
+            <button class="btn-default">>>></button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item active">
+                    <a href="../telas/artista.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../telas/busca.html">Ver Artistas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../telas/artista.html">Ver Letras</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../telas/ordenado.html">Artistas Ordenados</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<header>
+
+        <h1>Artistas ordenados</h1>
+        <form id="form">
+            <div class="form-g">
+                <button type="button" id="submitVerAr">Ordenar Artistas</button>
+            </div>
+
+            <div class="form-g">
+                <button type="button" id="submitVerGene">Ordenar Gêneros</button>
+            </div>
+        </form>
+ 
+        <div class="player">
+            <div class="player-controls">
+                <button class="skip-back"><<</button>
+                <button class="like">♥</button>
+                <button class="skip-forward">>></button>
+            </div>
+        </div>
+    
+   
+        <div class="card-group">
+            <div class="card">
+            <img src="../imagens/images (1).jpg" alt="Imagem ilustrativa" class="img-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">BLUE LIPES</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="../imagens/transferir (2).jpg" alt="Imagem ilustrativa" class="img-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Coldplay</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="../imagens/transferir (4).jpg" alt="Imagem ilustrativa" class="img-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">CAOS</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            </div>
+         </div>
+
+
+    <ul id="songsContainer" class="songscontainer songs"></ul>
+    <div id="prev-and-next-container" class="prev-and-next-container"></div>
+
+    <button class="btn-default"><li class="nav-item active"><a href="../telas/artista.html">Voltar para Home</a></li></button>
+
+    <footer>
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Maria Eduarda 
+            </span>
+            <div class="social-media-buttons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-github" viewBox="0 0 22 22">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                  </svg>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/ordenado.js"></script>
+    <script src="../js/script.js"></script>
+</header>
+</body>
+</html>
