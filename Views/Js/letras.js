@@ -66,7 +66,7 @@ form.addEventListener('submit', (event) => {
     songsContainer.scrollIntoView({ behavior: 'smooth' });
   });
   
-
+  //mostrar a letra na tela, ai depois ajustei para ficar bonita.
   const fetchLyrics = async (artist, songTitle) => {
     const data = await fetData(`${apiURL}/v1/${artist}/${songTitle}`)
 

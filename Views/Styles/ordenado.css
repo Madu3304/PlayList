@@ -1,8 +1,4 @@
 
-/* #letras{
-    min-height: calc(100vh - 91px)
-  }
-   */
   .form {
       position: relative;
       width: 500px;
@@ -46,7 +42,7 @@
     }
     
     h1 .section-title {
-      margin: 0 0 30px;
+      margin: 0 0 40px;
       color: #ebeaee;
     }
     
@@ -250,6 +246,7 @@ nav.button .btn {
 .card-title {
   font-size: 16px;
   font-weight: bold;
+  color: #5a05d0;
 }
 
 .card-text {
@@ -290,7 +287,6 @@ nav.button .btn {
   margin: 30px auto;
   max-width: 100%;
   width: 500px;
-  background-color: rgb(129, 66, 201);
 }
 
 .Cantor-container {

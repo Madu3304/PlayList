@@ -34,6 +34,7 @@ const sortArtists = (data) => { const sortedData = data.sort((a, b) => { return 
 //gêneros ## 'toLowerCase' é para tornar minúsculas
 const sortGenres = (data) => { const sortedData = data.sort((a, b) => { return a, b }); return removerGenere(sortedData); };
 
+//ela pode realizar operações que levam tempo sem bloquear a execução
 submitVerAr.addEventListener('click', async (event) => {
     event.preventDefault(); 
     const data = await fetchData(apiURL);
