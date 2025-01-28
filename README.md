@@ -3,7 +3,7 @@ Front em js
 
 Objetivo: O sistema tem o objetivo de apresentar músicas, artistas, gêneros e letras utilizando duas APIs gratuitas.
 
-Instalação na base local: Passo 1: Baixar o Sistema Acesse o repositório oficial do sistema (GitHub) Baixe o pacote do sistema ou clone o repositório: git clone : https://github.com/Madu3304/PlayList.JS
+Instalação na base local: Passo 1: Baixar o Sistema Acesse o repositório oficial do sistema (GitHub) Baixe o pacote do sistema ou clone o repositório: git clone : https://github.com/Madu3304/PlayList
 
 Passo 2: Instale os pacotes necessários em sua máquina: npm install cors; npm install express; npm install swagger-client npm install nodemon --save-dev; npm install webpack-cli
 
